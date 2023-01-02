@@ -9,7 +9,9 @@ import android.location.Location
 import android.location.LocationManager
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
 import android.os.Looper
+import android.os.Message
 import android.provider.Settings
 import android.util.Log
 import android.widget.Toast
@@ -24,13 +26,22 @@ import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
 import com.weatherapp.R
 import com.weatherapp.utils.Constants
+import org.jsoup.Jsoup
+import org.jsoup.nodes.Document
+import org.jsoup.select.Elements
 import retrofit.*
-
+import java.io.IOException
+import kotlin.concurrent.thread
+val TAG = "MainActivity"
 // OpenWeather Link : https://openweathermap.org/api
 /**
  * The useful link or some more explanation for this app you can checkout this link :
  * https://medium.com/@sasude9/basic-android-weather-app-6a7c0855caf4
  */
+
+private val URL: String = "https://www.hanyang.ac.kr/web/www/re1"
+//var bundle: Bundle? = null
+
 class MainActivity : AppCompatActivity() {
 
     // A fused location client variable which is further user to get the user's current location
@@ -83,8 +94,40 @@ class MainActivity : AppCompatActivity() {
                     }).onSameThread()
                     .check()
         }
-    }
 
+        // TODO: Web crawling - Thread
+        thread(start = true) {
+            run {
+                try {
+                    var doc: Document = Jsoup.connect(URL).get()
+                    var menuele: Elements = doc.select(".thumbnail")
+                    var isEmpty = menuele.isEmpty()
+
+                    if (!isEmpty) {
+                        var menu = menuele.text()
+//                        var menu = menuele[1].text()
+//                        var menu = menuele[0].text().substring(3)
+                        Log.d(TAG, menu)
+
+                    } else {
+                        Log.d(TAG, "no menu today!")
+                    }
+
+                } catch(e: IOException) {
+                    e.printStackTrace()
+                }
+            }
+        }
+        // END thread
+    } // END onCreate
+
+    // TODO: Web crawling - Handler
+    inner class handler: Handler(Looper.getMainLooper()) {
+        override fun handleMessage(msg: Message) {
+            super.handleMessage(msg)
+            var bundle: Bundle  = msg.data
+        }
+    }
     /**
      * A function which is used to verify that the location or GPS is enable or not of the user's device.
      */
