@@ -3,12 +3,12 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "com.weatherapp"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
@@ -46,6 +46,9 @@ dependencies {
     // https://square.github.io/retrofit/
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+
+    // This is for getting the cafeteria menus - Jsoup library
+    implementation 'org.jsoup:jsoup:1.13.1'
 
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
