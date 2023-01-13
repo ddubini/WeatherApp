@@ -4,12 +4,20 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
+import android.util.Log
 
-// TODO (STEP 2: Create the activities package and utils package and add the MainActivity class to it and create the constant object in utils.)\
-// START
 object Constants {
 
-    // TODO (STEP 3: Add a function to check the network connection is available or not.)
+    const val APP_ID: String = "c10daa4d34c3a3fbe86fd796e43d7d8d"
+    const val BASE_URL: String = "http://api.openweathermap.org/data/"
+    const val METRIC_UNIT: String = "metric"
+
+    // TODO (STEP 3: Add the SharedPreferences name and key name for storing the response data in it.)
+    // START
+    const val PREFERENCE_NAME = "WeatherAppPreference"
+    const val WEATHER_RESPONSE_DATA = "weather_response_data"
+    // END
+
     /**
      * This function is used check the weather the device is connected to the Internet or not.
      */
@@ -33,4 +41,3 @@ object Constants {
         }
     }
 }
-// END

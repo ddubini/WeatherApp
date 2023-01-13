@@ -6,16 +6,12 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="31" />
 
-    <!-- TODO (STEP 1 : For Implementing the API call we need to add the Internet Permission.) -->
-    <!-- START -->
     <!-- To access the Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!-- END -->
-
 
     <!-- To access the location -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -33,6 +29,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.weatherapp.activities.MainActivity"
+            android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

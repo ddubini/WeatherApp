@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "com.weatherapp-mergeDebugResources-16:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yssbb\\.gradle\\caches\\transforms-2\\files-2.1\\a0df8aa46d15bef6d531d21ede0e97e2\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\yssbb\\.gradle\\caches\\transforms-3\\3d694520c58b04dbfb9067110f193ffc\\transformed\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -12,10 +12,18 @@
                         "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
                         "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2326,2550,2665,2772,2885",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2321,2545,2660,2767,2880,3110"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yssbb\\.gradle\\caches\\transforms-2\\files-2.1\\eaa4184ef95fb51bf07a251cf4549871\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\yssbb\\.gradle\\caches\\transforms-3\\050321018cd78f57f434d8d207f37ce6\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -27,14 +35,14 @@
                     "to": {
                         "startLines": "48",
                         "startColumns": "4",
-                        "startOffsets": "3407",
+                        "startOffsets": "3115",
                         "endLines": "50",
                         "endColumns": "12",
-                        "endOffsets": "3552"
+                        "endOffsets": "3260"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yssbb\\.gradle\\caches\\transforms-2\\files-2.1\\1d90cd8f4900107f057abb787f3d5130\\material-1.1.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\yssbb\\.gradle\\caches\\transforms-3\\4fd8cc1e9f02148e6fcc80bbacce7eb8\\transformed\\material-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -46,10 +54,10 @@
                     "to": {
                         "startLines": "51,55",
                         "startColumns": "4,4",
-                        "startOffsets": "3557,3822",
+                        "startOffsets": "3265,3530",
                         "endLines": "54,58",
                         "endColumns": "10,10",
-                        "endOffsets": "3817,4090"
+                        "endOffsets": "3525,3798"
                     }
                 }
             ]

@@ -1,62 +1,154 @@
 [
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.weatherapp-merged_res-18:/drawable_wind.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/wind.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.weatherapp-merged_res-18:/drawable_close.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/close.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.weatherapp-merged_res-18:/drawable_sunset.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/sunset.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.weatherapp-merged_res-18:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "com.weatherapp-merged_res-18:/drawable_rain.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/rain.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.weatherapp-merged_res-18:/drawable_snowflake.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/snowflake.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.weatherapp-merged_res-18:/drawable_sunny.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/sunny.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.weatherapp-merged_res-18:/drawable-xxhdpi_ic_refresh_24dp.png.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-xxhdpi/ic_refresh_24dp.png"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.weatherapp-merged_res-18:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.weatherapp-merged_res-18:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.weatherapp-main-20:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.weatherapp-merged_res-18:/drawable-anydpi-v24_ic_refresh_24dp.xml.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-anydpi-v24/ic_refresh_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "com.weatherapp-merged_res-18:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.weatherapp-merged_res-18:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.weatherapp-merged_res-18:/drawable_sunrise.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/sunrise.xml"
     },
     {
-        "merged": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yssbb\\AndroidStudioProjects\\WeatherApp_v3\\WeatherApp_v3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.weatherapp-merged_res-18:/drawable_morning.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/morning.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable-ldpi_ic_refresh_24dp.png.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-ldpi/ic_refresh_24dp.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/layout_activity_main.xml.flat",
+        "source": "com.weatherapp-main-20:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable-xxxhdpi_ic_refresh_24dp.png.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-xxxhdpi/ic_refresh_24dp.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_location.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/location.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable-hdpi_ic_refresh_24dp.png.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-hdpi/ic_refresh_24dp.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_temperature.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/temperature.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.weatherapp-main-20:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable-xhdpi_ic_refresh_24dp.png.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-xhdpi/ic_refresh_24dp.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable-mdpi_ic_refresh_24dp.png.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-mdpi/ic_refresh_24dp.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/layout_dialog_custom_progress.xml.flat",
+        "source": "com.weatherapp-main-20:/layout/dialog_custom_progress.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_humidity.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/humidity.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_storm.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/storm.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/menu_menu_main.xml.flat",
+        "source": "com.weatherapp-main-20:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_evening.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/evening.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.weatherapp-pngs-13:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.weatherapp-main-20:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.weatherapp-merged_res-18:/drawable_cloud.xml.flat",
+        "source": "com.weatherapp-main-20:/drawable/cloud.xml"
     }
 ]
