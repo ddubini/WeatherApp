@@ -46,6 +46,9 @@ import java.util.*
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.select.Elements
+import java.time.LocalDate
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 import kotlin.concurrent.thread
 val TAG = "MainActivity"
 
@@ -56,6 +59,8 @@ val TAG = "MainActivity"
  */
 
 private val URL: String = "https://www.hanyang.ac.kr/web/www/re1"
+private var menuText: String = ""
+private var dateText: String = ""
 //var bundle: Bundle? = null
 
 class MainActivity : AppCompatActivity() {
@@ -433,6 +438,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
         // END
+
+        // set menu texts
+        menu_tv_1.text = dateText
+        menu_tv_2.text = "오늘의 학식 메뉴"
+        menu_tv_3.text = menuText
+
     }
 
     /**
@@ -456,5 +467,35 @@ class MainActivity : AppCompatActivity() {
             SimpleDateFormat("HH:mm:ss")
         sdf.timeZone = TimeZone.getDefault()
         return sdf.format(date)
+    }
+
+    private fun getDateText(): String {
+        val current = LocalDateTime.now()
+        val format = DateTimeFormatter.ISO_DATE
+        val date_str = current.format(format)
+
+        val calendar = Calendar.getInstance()
+        val week_int = calendar.get(Calendar.DAY_OF_WEEK)
+        var week_str = ""
+        if (week_int == 1) {
+            week_str = "일"
+        } else if (week_int == 2) {
+            week_str = "월"
+        } else if (week_int == 3) {
+            week_str = "화"
+        } else if (week_int == 4) {
+            week_str = "수"
+        } else if (week_int == 5) {
+            week_str = "목"
+        } else if (week_int == 6) {
+            week_str = "금"
+        } else if (week_int == 7) {
+            week_str = "토"
+        }
+        return date_str + " " + week_str
+    }
+
+    private fun enterMenuText(menu_text: String): String {
+        return menu_text.replace("원", "원\n")
     }
 }
