@@ -59,6 +59,7 @@ val TAG = "MainActivity"
  */
 
 private val URL: String = "https://www.hanyang.ac.kr/web/www/re1"
+//private val URL: String = "https://www.hanyang.ac.kr/web/www/re1?p_p_id=foodView_WAR_foodportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_foodView_WAR_foodportlet_sFoodDateDay=16&_foodView_WAR_foodportlet_sFoodDateYear=2023&_foodView_WAR_foodportlet_action=view&_foodView_WAR_foodportlet_sFoodDateMonth=0"
 private var menuText: String = ""
 private var dateText: String = ""
 //var bundle: Bundle? = null
@@ -140,7 +141,37 @@ class MainActivity : AppCompatActivity() {
                 }).onSameThread()
                 .check()
         }
-    }
+
+        // TODO: Web crawling - Thread
+        thread(start = true) {
+            run {
+                try {
+                    var doc: Document = Jsoup.connect(URL).get()
+                    var menuele: Elements = doc.select(".thumbnail")
+                    var isEmpty = menuele.isEmpty()
+
+                    if (!isEmpty) {
+                        var menu = menuele.text()
+//                        var menu = menuele[1].text()
+//                        var menu = menuele[0].text().substring(3)
+                        Log.d(TAG, menu)
+                        menuText = menu
+
+                    } else {
+                        Log.d(TAG, "No menu today!")
+                        menuText = "오늘은 학식이 없어요"
+                    }
+
+                } catch(e: IOException) {
+                    e.printStackTrace()
+                }
+            }
+        }
+        // END thread
+
+        dateText = getDateText()
+
+    } // END onCreate
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -157,31 +188,7 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
 
-        // TODO: Web crawling - Thread
-        thread(start = true) {
-            run {
-                try {
-                    var doc: Document = Jsoup.connect(URL).get()
-                    var menuele: Elements = doc.select(".thumbnail")
-                    var isEmpty = menuele.isEmpty()
-
-                    if (!isEmpty) {
-                        var menu = menuele.text()
-//                        var menu = menuele[1].text()
-//                        var menu = menuele[0].text().substring(3)
-                        Log.d(TAG, menu)
-
-                    } else {
-                        Log.d(TAG, "no menu today!")
-                    }
-
-                } catch(e: IOException) {
-                    e.printStackTrace()
-                }
-            }
-        }
-        // END thread
-    } // END onCreate
+    }
 
     // TODO: Web crawling - Handler
     inner class handler: Handler(Looper.getMainLooper()) {
@@ -442,7 +449,7 @@ class MainActivity : AppCompatActivity() {
         // set menu texts
         menu_tv_1.text = dateText
         menu_tv_2.text = "오늘의 학식 메뉴"
-        menu_tv_3.text = menuText
+        menu_tv_3.text = enterMenuText(menuText)
 
     }
 
