@@ -2,8 +2,8 @@
 
 날씨 어플에 학식 데이터 추가
 
-Weather API: https://openweathermap.org/api
-Web crawler: https://jsoup.org/news/release-1.13.1
+- Weather API: https://openweathermap.org/api
+- Web crawler: https://jsoup.org/news/release-1.13.1
 
 
 예시
